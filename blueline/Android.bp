@@ -21,16 +21,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "QtiTelephonyService",
-	owner: "google",
-	apk: "proprietary/app/QtiTelephonyService/QtiTelephonyService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "atfwd",
 	owner: "google",
 	apk: "proprietary/app/atfwd/atfwd.apk",
@@ -44,16 +34,6 @@ android_app_import {
 	name: "datastatusnotification",
 	owner: "google",
 	apk: "proprietary/app/datastatusnotification/datastatusnotification.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "ims",
-	owner: "google",
-	apk: "proprietary/app/ims/ims.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
